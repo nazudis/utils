@@ -1,3 +1,3 @@
-module git.verzth.work/go/utils
+module github.com/nazudis/utils
 
-go 1.13
+go 1.20

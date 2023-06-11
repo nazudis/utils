@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"git.verzth.work/go/utils"
 	"os"
+
+	"github.com/nazudis/utils"
 )
 
 func main() {

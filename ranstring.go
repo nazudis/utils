@@ -5,8 +5,7 @@ import (
 	"time"
 )
 
-const charset = "abcdefghijklmnopqrstuvwxyz" +
-	"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+const charset = "abcdefghijklmnopqrstuvwxyz" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 const charsetUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 const charsetLower = "abcdefghijklmnopqrstuvwxyz0123456789"
 const charsetHexLower = "0123456789abcdef"

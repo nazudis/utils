@@ -1,8 +1,11 @@
 # Golang Utilities
 
+#### Disclaimer
+This code is a copy from the original source <https://git.verzth.work/go/utils>
+
 #### Installation
 ```shell script
-go get git.verzth.work/go/utils
+go get github.com/nazudis/utils
 ```
 
 #### Available Utils
@@ -13,7 +16,7 @@ package mypackage
 
 import (
 	"fmt"
-	"git.verzth.work/go/utils"
+	"github.com/nazudis/utils"
 )
 
 func main() {
