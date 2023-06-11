@@ -1,12 +1,11 @@
 package utils
 
 import (
-	"io/ioutil"
 	"os"
 )
 
 func movePath(src string, dst string, perm os.FileMode) {
-	oFile, err := ioutil.ReadFile(src)
+	oFile, err := os.ReadFile(src)
 	if err == nil {
 		os.MkdirAll(dst, perm)
 		nFile, err := os.Create(dst)
